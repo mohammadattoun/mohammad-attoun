@@ -1,0 +1,68 @@
+* {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 5px;
+}
+
+h1 {
+	display: block;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2rem;
+	text-align: center;
+    text-decoration: underline;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-height: 250px;
+}
+
+ul {
+	padding-left: 1.2em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	width: 33%;
+}
+
+.top-right {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+.row {
+	flex-grow: 1;
+	margin: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#problems { background-color: #c69cf4; }
+#motives { background-color: #2ec442; }
+#fears { background-color: #705892; }
+#business { background-color: #a44141; }
+#users { background-color: #547faa; }
+#uvp { background-color: #f49cc8; }
+#problems { background-color: #e3c0ac; }
+#competitive-advantages { background-color: #4c909e; }
+#alternatives { background-color: #a38262; }
+#solutions { background-color: #9cf4df; }
