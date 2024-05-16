@@ -1,0 +1,137 @@
+a {    
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: .75rem;
+}
+.container {   
+  max-width: 1200px;   
+  margin: auto;
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-bar {    
+  height: 40px; 
+  padding: 10px 0;
+  font-size: 14px; 
+  background: #fff;       
+}
+.top-bar i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #333;
+}
+.nav-content {
+  background-color:black;
+  padding: 10px 0 15px 0;
+}
+.logo {
+  font-family: 'Ranchers', cursive;
+  font-size: 34px;
+  color: #e3872d;
+  letter-spacing: 6px;    
+}
+.logo:hover {
+  color: #fff;
+  transition: .5s;
+}
+.nav li a {    
+  letter-spacing: 1px;
+}
+.nav li a:hover {
+  border-bottom: 3px solid #e3872d;
+  padding-bottom: 5px;
+  transition: .5s;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.text1{
+  font-size: x-large; 
+  font-family: 'Times New Roman', Times, serif;
+}
+.card1{
+  width: 18rem;height: 100%;
+}
+.card-img-top{
+  width: 18rem;height: 170px;
+}
+.ft{
+  position: relative;
+  bottom: -300px;
+}
+.nv1{
+  position: sticky;
+  top: 0;
+}
+.he{
+  font-size:x-large;
+}
+.dropdown-item{
+  font-size: larger;
+}
+.row{
+margin-left: 5%;
+margin-right: 5%;
+  width: 90%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .container .nav {
+      flex-direction: column;
+    
+  }
+  .nav .logo {
+      margin-bottom: 10px;
+  }
+  
+  .container .nav li {
+      padding: .25rem .45rem;
+  } 
+  .flex{
+    margin-right: 8%;
+  }
+  
+  .row{
+    display:inline-block;
+
+  }
+  
+  .ca1{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  
+  .text1{
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .ca1{
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .ca1{
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+  }
+
+}
